@@ -1,5 +1,5 @@
 /************************************************************
-* Create the database named music and all of its tables.
+* Create the database named storefront and all of its tables.
 ************************************************************/
   
 DROP DATABASE IF EXISTS storefront;

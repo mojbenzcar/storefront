@@ -1,15 +1,21 @@
 
 1. About
-storefront - storefront is a generic e-commerce web application written in java
-
+storefront - storefront is a generic e-commerce web application written in Java.  
 
 2. Installation
 
-to install you will need maven, tomcat 7 and Java installed.
+pre-requisites:
+Maven 3.0 (2.xx may work)
+Apache Tomcat 7.0 (6.xx may work)
+MySQL 5.1
+Java - I used servlet spec 3.0 so JavaSE 1.6 at least is req'd
+
+
 
 At the root of the project, run:
+tomcat_directory/bin/startup.sh
+mysql -u root_user -p < sql
 mvn tomcat6:deploy
-
 Then navigate to localhost:8081/storefront and the application should be running.
 
 
