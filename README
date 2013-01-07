@@ -1,0 +1,15 @@
+
+1. About
+storefront - storefront is a generic e-commerce web application written in java
+
+
+2. Installation
+
+to install you will need maven, tomcat 7 and Java installed.
+
+At the root of the project, run:
+mvn tomcat6:deploy
+
+Then navigate to localhost:8081/storefront and the application should be running.
+
+

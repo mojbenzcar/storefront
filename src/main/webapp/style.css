@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333333;
+  font: Georgia,serif;
+}
+/*
+ * content wraps main and sidebar
+ */
+div#content {
+}
+div#main-wrap {
+  float: left;
+  width: 100%;
+}
+/*
+ * this is the main column
+ */
+div#main {
+  margin-right: 300px;
+}
+div#sidebar {
+  float: left;
+  width: 300px;
+  margin-left: -300px;
+}
+div#footer {
+  clear: both;
+  width: 100%;
+  background: #666666;
+  color: #000000;
+  text-align: center;
+}
+div#nav ul {
+  list-style-type: none;
+  height: 80px;
+  margin: auto;
+}
+div#nav li {
+  float: left;
+}
+div#footer hr {
+  margin-top: 20px;
+}
+
+div#nav a {
+  padding-right: 16px;
+  padding-left: 16px;
+  display: block;
+  line-height: 80px;
+  text-decoration: none;
+}
+div#product {
+  float:left;
+}
+a:link    {
+
+}
+a:visited {
+
+}
+a:hover   {
+  color: #999;
+}
+
+h1 {
+  margin: 0 10px 10px 10px;
+}
+h2 {
+  margin: 0 10px 10px 10px;
+}
+h3 {
+  margin: 0 10px 10px 10px;
+}
+h4 {
+  margin: 0 10px 10px 10px;
+}
+
+p {
+  margin: 0 10px 10px 10px;
+}
+
+
+#gallery {
+  float: left;
+  width: 90px;
+  margin-right: 30px;
+  margin-left: 10px;
+  border-right: white 1px dotted;
+}
+
+#photo {
+  margin-left: 150px;
+  position: relative;
+}
+
+#photo img {
+  position: absolute;
+  height:300px;
+}
+
+
+
