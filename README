@@ -22,8 +22,11 @@ Then navigate to localhost:8081/storefront and the application should be running
 3. Credits
 This project uses code from 
 
-Murach's Servlet's and JSP 2nd edition by Joel Murach and Andrea Steelman
 JavaScript and jQuery - The Missing Manual by David Sawyer McFarland
+Murach's Servlet's and JSP 2nd edition by Joel Murach and Andrea Steelman
 slides jquery plugin by nathan searles (apache license)
+Designa Web Template by Sylvain Lafitte
+Normalise.css (http://necolas.github.com/normalize.css/), 
+css-tricks.com
 
 
