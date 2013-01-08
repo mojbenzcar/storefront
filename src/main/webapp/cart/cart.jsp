@@ -1,6 +1,8 @@
 <jsp:include page="/includes/header.html" />
 
 <!-- begin middle column -->
+<div id="main-wrap">
+<div id="main">
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     
@@ -51,9 +53,7 @@
 
 <c:if test="${not empty cart.items}">
 <!--
-The following form action uses a secure connection. 
-To use it, you must configure your development environment 
-as described in chapter 16 of this book.
+Enable the following to use a secure connection
 -->
 <%-- 
 <form action="<c:url 
@@ -63,7 +63,7 @@ as described in chapter 16 of this book.
 </form>
 --%>
 
-<!-- The following form action doesn't use a secure connection.
+<!-- The following form action doesnt use a secure connection.
 However, it lets you run the application without configuring 
 the secure connection in your development environement. 
 -->
@@ -73,6 +73,8 @@ the secure connection in your development environement.
 </c:if>
 
 
+</div><!-- main -->
+</div><!-- main wrapper -->
 <!-- end middle column -->
 <jsp:include page="/includes/column_right.jsp" flush="true" />
 <jsp:include page="/includes/footer.jsp" />

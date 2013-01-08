@@ -1,4 +1,6 @@
 <jsp:include page="/includes/header.html" />
+<div id="main-wrap">
+<div id="main">
 
 <td width="404" valign="top">
 
@@ -62,5 +64,8 @@ function validate(form)
 
 </td>
 
+</div><!-- main -->
+</div><!-- main wrapper -->
+<!-- end middle column -->
 <jsp:include page="/includes/column_right.jsp" />
 <jsp:include page="/includes/footer.jsp" />
