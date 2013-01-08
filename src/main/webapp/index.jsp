@@ -51,7 +51,7 @@ $('#gallery img').each(function(i) {
 }); // end ready
 </script>
 
-<h1>main page</h1>
+<h2>Main page</h2>
 <p><script>loremIpsumParagraph(15);</script></p>
 <div id="gallery">
   <a href="/storefront/images/pr01_image.jpg">
