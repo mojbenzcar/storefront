@@ -27,9 +27,10 @@
         the container will prevent connection pool leaks by automatically removing 
         Connection, Statement, ResultSet, etc. objects that haven't been closed 
         -->
+    <!-- note that your password should probably not be root_password : ) -->
     <Resource name="jdbc/storefrontDB" auth="Container" 
         maxActive="100" maxIdle="30" maxWait="10000" 
-        username="root" password="j02200396" 
+        username="root" password="mysql_root_password" 
         driverClassName="com.mysql.jdbc.Driver" 
         url="jdbc:mysql://localhost:3306/storefront?autoReconnect=true" 
         logAbandoned="true" removeAbandoned="true" 
